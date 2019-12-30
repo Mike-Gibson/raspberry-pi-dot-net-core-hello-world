@@ -33,11 +33,11 @@
 
 #### On Mac
 
-1. Configure SSH login to the pi
+1. Configure SSH login to the Pi
 
     1. Generate a new SSH key with `ssh-keygen -t rsa -f ~/.ssh/pi_rsa`
 
-    2. Add to authorized hosts on the Pi with `ssh-copy-id -i /~/.ssh/pi_rsa.pub pi@raspberrypi.local`
+    2. Add to authorized hosts on the Pi with `ssh-copy-id -i ~/.ssh/pi_rsa.pub pi@raspberrypi.local`
 
     3. In `~/.ssh/config` add
 
